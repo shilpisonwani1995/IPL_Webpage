@@ -1,0 +1,170 @@
+/* .header {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, #67229c 0%, #de354f 100%);
+} */
+
+.header {
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  margin-top: -30px;
+  padding: 20px 0;
+  width: 100%;
+  /* background-color: #5ea51c;
+  background-image: linear-gradient(90deg, #ffcc00 0%, #de354f 100%); */
+  cursor: pointer;
+
+  background: url(https://www.iplt20.com/assets/images/header-rotate.png)
+      left/contain no-repeat,
+    url(https://www.iplt20.com/assets/images/header-curl-bg.svg) right/contain
+      no-repeat #19398a;
+}
+/* button {
+  width: 80px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+} */
+
+.header button {
+  width: 80px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+#slogan3 {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  /* display: flex; */
+  /* margin-top: 70px; */
+  /* padding: 20px 0; */
+  width: 100%;
+  /* background-color: #74ebd5; */
+
+  cursor: pointer;
+}
+
+#table-team {
+  width: 100%;
+  border: 1px solid black;
+}
+#table-team table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #3ac5a2;
+  background-image: linear-gradient(90deg, #a852a1 0%, #115463 100%);
+}
+#table-team td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+#first-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* card grid goes here */
+#container_teams {
+  background-color: #dddddd;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 50px 10%;
+}
+.minibox {
+  width: 23.2%;
+  margin: 10px;
+}
+.minibox {
+  margin-bottom: 60px;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 370px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 10px 0px;
+  background-image: linear-gradient(rgb(28, 28, 28) 0%, rgb(11, 73, 115) 100%);
+  border-radius: 5px;
+}
+.mn2 {
+  background-image: linear-gradient(rgb(234, 26, 133) 0%, rgb(0, 29, 72) 100%);
+}
+.minibox:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 10px 5px;
+  margin-top: 3px !important;
+
+  transition: 0.2s ease-in-out;
+}
+.mainimage {
+  width: 75%;
+}
+#first-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#table-team td {
+  border: 1px solid blueviolet;
+  width: 30vw;
+  padding-left: 10vw;
+}
+#table-team table {
+  margin-left: 20vw;
+}
+.team-page-icon {
+  width: 100px;
+}
+#player-details-con {
+  /* display: flex; */
+  width: 65%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#new-player-det td {
+  border: 1px solid black;
+  width: 30vw;
+  padding-left: 10vw;
+}
+
+#player_detail-img img {
+  width: 35%;
+  margin: 5px 0 -10px 0;
+  margin-left: 19vw;
+}
+#player-details-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  color: white;
+  background-color: #07080b;
+  text-align: center;
+
+  padding: 50px;
+}

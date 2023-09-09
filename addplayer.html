@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add player</title>
+    <link rel="stylesheet" href="./addplayer.css" />
+    <script
+      src="https://kit.fontawesome.com/ea553159f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+
+    <div class="header">
+      <a href="index.html"><button>Home</button></a>
+    </div>
+
+    <div id="add-team">
+      <h1 id="slogan2">Add a Player</h1>
+      <form id="addteamform">
+        <p class="para">Player Name</p>
+        <input
+          id="inp1"
+          type="text"
+          name="playerName"
+          placeholder="Enter player name here.."
+          required
+        />
+        <p class="para">Price in Crore</p>
+        <input
+          id="inp2"
+          type="number"
+          name="price"
+          maxlength="2"
+          placeholder="enter price for player.."
+          required
+        />
+        <p class="para">Select Player playing</p>
+        <select
+          id="inp3"
+          type="text"
+          name="isPlaying"
+          placeholder="enter playing status here.."
+          required
+        >
+          <option value="true">true</option>
+          <option value="false">false</option>
+        </select>
+        <p class="para">Select Player Role</p>
+        <select id="inp4" type="text" name="role" required>
+          <option value="ALL-Rounder">ALL-Rounder</option>
+          <option value="Batsman">Batsman</option>
+          <option value="Bowler">Bowler</option>
+        </select>
+        <p class="para">Player Image URL</p>
+        <input
+          id="inp5"
+          type="text"
+          name="playerimg"
+          placeholder="Enter player image url.."
+          required
+        />
+        <p class="para">Enter Player Team</p>
+        <select id="inp6" type="text" name="teamSelect" required></select>
+
+        <button type="submit">Add Player</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div><h4>Copyright © IPL 2023 All Rights Reserved.</h4></div>
+    </footer>
+    <script src="./addplayer.js"></script>
+  </body>
+</html>

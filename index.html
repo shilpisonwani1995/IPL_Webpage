@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPL</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/ea553159f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="tophead">
+      <span class="bcci">
+        <a href="https://www.bcci.tv/" class="tophead1">
+          <img src="./BCCI_logo.png" alt="bcci-img" />
+          <span class="bcci-text">BCCI.TV</span>
+        </a>
+      </span>
+    </div>
+    <header>
+      <a href="#" class="logo">
+        <img
+          src="https://www.iplt20.com/assets/images/ipl-logo-new-old.png"
+          alt="logoimg"
+        />
+      </a>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a onclick="addTeam()">Add Team</a></li>
+          <li><a onclick="addPlayer()">Add Player</a></li>
+        </ul>
+      </nav>
+      <form>
+        <div class="search">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="Enter team code...eg - MI" />
+            <div class="autocom-box"></div>
+            <div class="icon"><i class="fas fa-search"></i></div>
+          </div>
+        </div>
+      </form>
+    </header>
+
+    <!--grid card-->
+    <!-- <h1 class="cardHeading">IPL TEAMS</h1> -->
+    <marquee><p class="cardHeading">IPL TEAMS 2023</p></marquee>
+    <div id="card">
+      <!-- Team data  -->
+      <div id="cardContainer"></div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div><h4>Copyright © IPL 2023 All Rights Reserved.</h4></div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

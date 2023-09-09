@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.tophead {
+  background-color: #061e59;
+  padding: 5px 5%;
+  align-items: center;
+  /* justify-content: center; */
+  /* display: flex;
+  flex-direction: row; */
+}
+.bcci-text {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2px;
+}
+.tophead1 {
+  display: flex;
+  align-items: center;
+}
+header {
+  background: url(https://www.iplt20.com/assets/images/header-rotate.png)
+      left/contain no-repeat,
+    url(https://www.iplt20.com/assets/images/header-curl-bg.svg) right/contain
+      no-repeat #19398a;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  /* padding: 20px 7%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* position: sticky; */
+  padding: 5px;
+}
+.logo {
+  width: 10%;
+}
+.logo img {
+  width: 100px;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  position: relative;
+  /* float: left; */
+  display: inline-block;
+}
+.navbar ul li a {
+  font-size: 17px;
+  letter-spacing: 1px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  /* display: flex;
+  flex-direction: row; */
+  /* flex-wrap: nowrap; */
+}
+.navbar ul li a:hover {
+  text-decoration: underline #fff;
+}
+.navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+}
+.search {
+  /* margin-right: 40px; */
+  cursor: pointer;
+  font-size: 22px;
+}
+.icon i {
+  color: #fff;
+}
+.search-input {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+/* grid card */
+marquee {
+  background-color: #19398a;
+}
+.cardHeading {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+#card {
+  width: 100%;
+  margin: 0 auto;
+}
+#cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.cardContent {
+  width: 19%;
+  margin: 15px 6px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.cardContent:hover {
+  transition: 0.2s ease-in-out;
+}
+.icon {
+  width: 100%;
+}
+.icon img {
+  height: 250px;
+  width: 100%;
+}
+.fullNmae {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+footer {
+  color: white;
+  background-color: #07080b;
+  text-align: center;
+
+  padding: 50px;
+}

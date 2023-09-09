@@ -1,0 +1,80 @@
+#slogan4 {
+  display: inline;
+  justify-content: center;
+  text-align: center;
+  /* display: flex; */
+  /* margin-top: 70px; */
+  /* padding: 20px 0; */
+  width: 100%;
+  /* background-color: #74ebd5; */
+
+  cursor: pointer;
+}
+.header {
+  background: url(https://www.iplt20.com/assets/images/header-rotate.png)
+      left/contain no-repeat,
+    url(https://www.iplt20.com/assets/images/header-curl-bg.svg) right/contain
+      no-repeat #19398a;
+  color: #ffff;
+  padding-top: 20px;
+}
+
+.header button {
+  width: 80px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+#player_detail-img img {
+  width: 35%;
+  margin: 5px 0 20px 0;
+  margin-left: 19vw;
+}
+#player-details-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#new-player-det td {
+  border: 1px solid black;
+  width: 30vw;
+  padding-left: 10vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+#player-details-con {
+  /* display: flex; */
+  width: 65%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+#new-player-det {
+  background-color: #19398a;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer {
+  color: white;
+  background-color: #07080b;
+  text-align: center;
+
+  padding: 50px;
+}
+.player-detail {
+  color: #ffffff;
+  padding: 5px 10px;
+}

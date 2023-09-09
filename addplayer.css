@@ -1,0 +1,52 @@
+footer {
+  color: white;
+  background-color: #07080b;
+  text-align: center;
+
+  padding: 50px;
+}
+#slogan2 {
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  margin-top: -30px;
+  padding: 20px 0;
+  width: 100%;
+  /* background-color: #5ea51c;
+  background-image: linear-gradient(90deg, #ffcc00 0%, #de354f 100%); */
+  cursor: pointer;
+
+  background: url(https://www.iplt20.com/assets/images/header-rotate.png)
+      left/contain no-repeat,
+    url(https://www.iplt20.com/assets/images/header-curl-bg.svg) right/contain
+      no-repeat #19398a;
+}
+#addteamform {
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 40%; */
+  border: 1px solid;
+  padding: 5% 40%;
+}
+#addteamform p {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.para {
+  background-color: #19398a;
+  color: #ffffff;
+  padding-left: 60px;
+}
+.header button {
+  width: 80px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid black;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Team</title>
+    <link rel="stylesheet" href="./addTeam.css" />
+    <script
+      src="https://kit.fontawesome.com/ea553159f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+
+    <div class="header">
+      <a href="index.html"><button>Home</button></a>
+    </div>
+
+    <div id="add-team">
+      <h1 id="slogan2">Add a Team</h1>
+      <form id="addteamform">
+        <p class="para">Team Name</p>
+        <input
+          id="inp1"
+          type="text"
+          name="teamName"
+          placeholder="Enter team name hear.."
+          required
+        />
+        <p class="para">Team logo Url</p>
+        <input
+          id="inp3"
+          type="text"
+          name="logoUrl"
+          placeholder="Enter logo Url hear.."
+          required
+        />
+        <p class="para">Won Count</p>
+        <input
+          id="inp4"
+          type="number"
+          name="wonCount"
+          placeholder="Enter won count hear.."
+          required
+        />
+
+        <button type="submit">Add Team</button>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div><h4>Copyright © IPL 2023 All Rights Reserved.</h4></div>
+    </footer>
+    <script src="./addTeam.js"></script>
+  </body>
+</html>
